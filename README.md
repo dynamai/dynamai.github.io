@@ -12,7 +12,7 @@ author_profile: true
  -->
 
 <p align="center">
-  <img src="https://github.com/dynamai/dynamai.github.io/blob/main/dynamai.png"  class="circle-img">
+  <img src="dynamai.png"  class="circle-img">
 </p>
 Dynamai is a *research and innovation group* focusing on exploring and developing ideas and concepts at the interface of dynamical systems and artificial intelligence (AI). Rooted in academia rigor, we are obssessed with anything that has to do with dynamical systems and AI. We are excited to turn our obsession into not only academic publications but also products/services in the form of impactful real world contributions! 
 <br>
