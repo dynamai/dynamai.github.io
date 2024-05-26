@@ -1,3 +1,16 @@
+---
+title: ""
+permalink: /home/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- {% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+ -->
+
 <p align="center">
   <img src="https://github.com/dynamai/dynamai.github.io/blob/main/dynamai.png"  class="circle-img">
 </p>
