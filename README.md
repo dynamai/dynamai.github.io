@@ -5,7 +5,7 @@ Dynamai is a *research and innovation lab* focusing on exploring and developing 
 
 ## Missions
 Dynamai strives to:
-- To explore various foundational topics at the interface of dynamical systems and AI 
+- To explore foundational topics at the interface of dynamical systems and AI 
 - To produce state-of-the-arts research results and softwares at the interface of dynamical systems and AI
 - To share and disseminate knowledge and information about the latest progress in research at this interface  
 - To provide education and consulting services to other institutions and industrial partners
@@ -19,6 +19,9 @@ Dynamai strives to:
 ## Projects 
 Check out our reading list [here](https://shoelim.github.io/DSxML/)! Until then, stay tuned!
 <br>
+
+## People 
+- Group leader: [Soon Hoe Lim](https://shoelim.github.io/), Assistant Professor at KTH and Nordita
 
 ## Contact 
 We are happy to hear from you! For any enquiries and comments, please contact us via the email address: soon DOT hoe DOT lim AT su DOT se. 
