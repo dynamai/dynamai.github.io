@@ -21,7 +21,7 @@ Check out our reading list [here](https://shoelim.github.io/DSxML/)! Until then,
 <br>
 
 ## People 
-- Lab founder/CEO: [Soon Hoe Lim](https://shoelim.github.io/), Assistant Professor at KTH and Nordita
+- Lab founder and CEO: [Soon Hoe Lim](https://shoelim.github.io/), Assistant Professor at KTH and Nordita
 
 ## Contact 
 We are happy to hear from you! For any enquiries and comments, please contact us via the email address: soon DOT hoe DOT lim AT su DOT se. 
