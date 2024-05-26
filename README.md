@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /home/
+permalink: /index/
 author_profile: true
 ---
 
