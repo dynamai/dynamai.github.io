@@ -1,7 +1,5 @@
 ---
 title: ""
-permalink: /homw/
-author_profile: true
 ---
 
 <p align="center">
