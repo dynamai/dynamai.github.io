@@ -1,7 +1,3 @@
----
-title: ""
----
-
 <p align="center">
   <img src="dynamai.png"  class="circle-img">
 </p>
