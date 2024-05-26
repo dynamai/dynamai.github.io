@@ -22,7 +22,7 @@ Check out our reading list [here](https://shoelim.github.io/DSxML/)! Until then,
 
 ## People 
 - Group founder and CEO: [Soon Hoe Lim](https://shoelim.github.io/), Assistant Professor at KTH and Nordita
-- Other members: we are currently hiring two postdocs and several master students to join the group!
+- Other members: we are currently hiring two postdocs, two PhD students and several master students to join the group!
 
 ## Contact 
 We are happy to hear from you! For any enquiries and comments, please contact us via the email address: soon DOT hoe DOT lim AT su DOT se. 
