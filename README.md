@@ -18,7 +18,7 @@ Dynamai strives to:
 - Private consulting
 
 ## Projects 
-Check out our reading list [here](https://shoelim.github.io/DSxML/)! Until then, stay tuned!
+This page is still under contruction. Check out our reading list [here](https://shoelim.github.io/DSxML/)! Until then, stay tuned!
 <br>
 
 ## People 
