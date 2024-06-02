@@ -1,7 +1,7 @@
 <p align="center">
   <img src="dynamai.png"  class="circle-img">
 </p>
-Dynamai is a *research and innovation group* dedicated to exploring the dynamic intersection of dynamical systems and artificial intelligence (AI). We are passionate about translating academic rigor into impactful solutions, creating both first-rate publications and real-world value at this exciting frontier.
+Dynamai is a *research and innovation group* dedicated to exploring the dynamic intersection of dynamical systems and artificial intelligence (AI). We are passionate about translating academic rigor into impactful solutions, creating both first-rate publications and real-world value at this exciting frontier!
 <br>
 
 ## Missions
@@ -26,3 +26,5 @@ This page is still under contruction. Check out our reading list [here](https://
 
 ## Contact 
 We are happy to hear from you! For any enquiries about our services, please contact us via the email address: soon DOT hoe DOT lim AT su DOT se. 
+<br>
+
