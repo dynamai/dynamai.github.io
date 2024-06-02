@@ -6,9 +6,9 @@ Dynamai is a *research and innovation group* dedicated to exploring the dynamic 
 
 ## Missions
 Dynamai's missions are to:
-- Pioneering research: explore foundational topics and produce cutting-edge research and software at the intersection of dynamical systems and AI
-- Knowledge dissemination: share and disseminate knowledge about the latest advancements in this interdisciplinary field, fostering a vibrant community of researchers and practitioners
-- Empowering partnerships: provide education and consulting services to academic institutions and industrial partners, enabling them to leverage the power of AI to drive innovation
+- *Pioneering research*: explore foundational topics and produce cutting-edge research and software at the intersection of dynamical systems and AI
+- *Knowledge dissemination*: share and disseminate knowledge about the latest advancements in this interdisciplinary field, fostering a vibrant community of researchers and practitioners
+- *Empowering partnerships*: provide education and consulting services to academic institutions and industrial partners, enabling them to leverage the power of AI to drive innovation
 
 ## Services
 - Research
