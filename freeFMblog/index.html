@@ -182,7 +182,7 @@
   <header class="hero">
     <div class="eyebrow">Training-free flow matching · Dynamical forecasting</div>
     <h1>FreeFM: Forecasting Dynamical Systems Without Training Neural Nets</h1>
-    <p class="subtitle">A tutorial-style project page for a memory-based flow matching forecaster, demonstrated on damped oscillators and Lorenz-63.</p>
+    <p class="subtitle">A tutorial-style project page for a memory-based flow matching forecaster, demonstrated on damped harmonic oscillators (DHO) and Lorenz-63.</p>
     <div class="meta">
       <span>Author: <a href="https://shoelim.github.io/">Soon Hoe Lim</a></span>
       <span>·</span>
@@ -201,7 +201,7 @@
     <article class="content">
 <h1 id="a-freefm-tutorial-with-damped-oscillators-and-lorenz-63">A FreeFM tutorial with damped oscillators and Lorenz-63</h1>
 <blockquote class="tldr">
-<p><strong>TL;DR.</strong> FreeFM is a training-free, memory-based flow matching forecaster. It builds a bank of observed transition pairs, uses those pairs to define a closed-form empirical velocity field, and produces probabilistic forecasts by integrating that field. On smooth systems such as the damped harmonic oscillator, it works very well when the memory bank covers the relevant phase-space region. On chaotic systems such as Lorenz-63, short-term forecasts can be meaningful, but long-horizon pointwise matching remains fragile.</p>
+<p><strong>TL;DR.</strong> FreeFM is a training-free, memory-based flow matching forecaster. It builds a bank of observed transition pairs, uses those pairs to define a closed-form empirical velocity field, and produces probabilistic forecasts by integrating that field. On smooth systems such as the damped harmonic oscillator, it works very well when the memory bank covers the relevant phase space region. On chaotic systems such as Lorenz-63, short-term forecasts can be meaningful, but long-horizon pointwise matching remains fragile.</p>
 </blockquote>
 <h2 id="why-freefm">Why FreeFM?</h2>
 <p>Most flow matching models learn a neural velocity field. FreeFM asks a simpler question:</p>
@@ -225,11 +225,11 @@ c_t^2 = \sigma_{\min}^2 + \sigma^2 t(1-t).$$</p>
 G_t = \frac{\sigma^2(1-2t)}{2c_t^2},$$</p>
 <p>with Gaussian responsibilities</p>
 <p>$$
-\alpha_j(t,z) \propto \exp( -\frac{|z-m_t^{(j)}|^2}{2c_t^2} ).
+\alpha_j(t,z) \propto \exp\left( -\frac{|z-m_t^{(j)}|^2}{2c_t^2} \right).
 $$</p>
 <p>A one-step forecast samples $Z_0 \sim \mathcal{N}(x_k,\sigma_{\min}^2I)$, then integrates $\frac{dZ_t}{dt}=v(t,Z_t),$
 for $t \in [0,1]$, and returns $Z_1$ as a predictive sample for $x_{k+1}$. Repeating this autoregressively gives a probabilistic trajectory forecast.</p>
-<h2 id="two-memory-bank-regimes">Two memory-bank regimes</h2>
+<h2 id="two-memory-bank-regimes">Two memory bank regimes</h2>
 <p>The same FreeFM algorithm can answer two different forecasting questions depending on how the transition memory bank is constructed.</p>
 <div class="table-wrap"><table>
 <thead>
@@ -315,7 +315,7 @@ train_seqs, val_seqs = split_train_val(train_val_seqs)
 </code></pre>
 <p>This asks whether local transition geometry from many example trajectories can forecast a new trajectory.</p>
 <h2 id="demo-a-damped-harmonic-oscillator">Demo A: damped harmonic oscillator</h2>
-<p>The damped harmonic oscillator is a favorable sanity check: the state is two-dimensional, the phase portrait is a smooth spiral, and nearby transitions are informative.</p>
+<p>The damped harmonic oscillator is a good sanity check: the state is two-dimensional, the phase portrait is a smooth spiral, and nearby transitions are informative.</p>
 <figure class="figure-card"><img src="assets/figure_cell16_01.png" alt="DHO training phase portrait"><figcaption>DHO training phase portrait</figcaption></figure>
 <p>The validation search selects $\sigma_{\min}=0.01$, $\sigma=0.01.$</p>
 <p>The held-out forecast is accurate both coordinate-wise and in phase space.</p>
@@ -376,7 +376,7 @@ train_seqs, val_seqs = split_train_val(train_val_seqs)
 </ul>
 <p>Its weaknesses are:</p>
 <ul>
-<li>dependence on memory-bank coverage,</li>
+<li>dependence on memory bank coverage,</li>
 <li>nearest-neighbor cost for large datasets,</li>
 <li>limited extrapolation outside observed support,</li>
 <li>long-horizon fragility on chaotic systems.</li>
