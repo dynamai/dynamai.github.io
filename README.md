@@ -1,7 +1,3 @@
----
-layout: default
-title:
----
 
 <p align="center">
   <img src="dynamai_logo.png" alt="Test Image 1" />
