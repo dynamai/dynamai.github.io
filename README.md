@@ -35,7 +35,7 @@ Our current research spans probabilistic modeling, generative modeling, sequence
 ## Group Members
 📍 [Soon Hoe Lim](https://shoelim.github.io/) (Assistant Professor and Group Leader)
 <br>
-📍 Shizheng Lin (PhD Student, KTH Mathematics)
+📍 Shizheng Lin (PhD Student, KTH Mathematics & Nordita)
 <br>
 📍 Athanasios Panagiotis (Master's Student, KTH Mathematics)
 <br>
