@@ -11,6 +11,8 @@ Our research spans generative modeling, sequence modeling, scientific ML, trustw
 ## Selected News
 📣 **Ongoing:** Our group is expanding! Several openings for highly motivated master's/PhD students and postdocs. 
 <br>
+📣 **October 2026:** We posted a preprint: [Coarse-Graining Optimal Transport for Rollout-Free Post-Training of Flow Matching](https://arxiv.org/abs/2610.41269).
+<br>
 📣 **October 2026:** We posted a preprint: [AREX: Affine-Residual Exponential Integrator for Few-Step Sampling in Flow Matching](https://arxiv.org/abs/2610.03483).
 <br>
 📣 **October 2026:** We posted a preprint: [Variational Streaming Flow: Probabilistic Forecasting in Physical Time](https://arxiv.org/abs/2610.00976).
