@@ -3,7 +3,7 @@
   <img src="dynamai_logo.png" alt="Test Image 1" />
 </p>
 
-Dynamai is a fundamental machine learning (funML) research group powered by applied and computational mathematics. We pursue fundamental and forward-looking research at the intersection of applied probability, applied dynamical systems, and ML.  Our broader vision is to help shape the next generation of ML by advancing its mathematical foundations and principled modeling approaches. 
+Dynamai is a fundamental machine learning (funML) research group powered by applied and computational mathematics. We pursue fundamental and forward-looking research at the intersection of applied probability/statistics, applied dynamical systems, numerical methods, and ML. Our broader vision is to help shape the next generation of ML by advancing its mathematical foundations and principled modeling approaches. 
 
 Our research spans generative modeling, sequence modeling, scientific ML, trustworthy ML, and beyond. Explore our latest research on [arXiv](https://arxiv.org/a/lim_s_1.html) and our open-source projects on [GitHub](https://github.com/dynamai). 
 <br>
